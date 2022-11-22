@@ -1,0 +1,22 @@
+---
+import AppMenu from '../components/AppMenu.js';
+import Section1 from '../components/Section1.js';
+import Section2 from '../components/Section2.js';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Alias2k | Soluzioni digitali di successo">
+	<main class="flex overflow-x-hidden">
+		<AppMenu />
+		<Section1/>
+		<Section2/>
+	</main>
+</Layout>
+
+<script>
+	const scrollContainer = document.querySelector("main");
+	scrollContainer.addEventListener("wheel", (evt) => {
+		evt.preventDefault();
+		scrollContainer.scrollLeft += evt.deltaY;
+	});
+</script>

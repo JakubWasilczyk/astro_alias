@@ -1,0 +1,10 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Berlingske';
+    src: url('/fonts/BerlingskeSerif-ExtraBold.woff2') format('woff2'),
+         url('/fonts/BerlingskeSerif-ExtraBold.woff') format('woff');
+}
