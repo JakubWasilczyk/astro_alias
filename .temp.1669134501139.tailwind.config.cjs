@@ -49,17 +49,17 @@ module.exports = {
 				},
 				zoomin: {
 					"0%": {
-						opacity: "0",
-						transform: "scale3d(0.3, 0.3, 0.3)",
+						opacity: 0,
+						transform: scale3d(.3,.3,.3),
 					},
 					"50%": {
-						opacity: "1",
+						opacity: 1,
 					}
 				}
 			},
 			animation: {
 				float: 'float linear 10s infinite',
-				zoomin: 'zoomin 750ms both',
+				zoomin: 'zoomin linear .75s',
 			}
 		},
 		colors: {
@@ -118,7 +118,6 @@ module.exports = {
 			white: colors.white,
 			black: colors.black,
 			darkblue: "#414764",
-			pale: "#fafafa",
 		},
 		fontFamily: {
 			worksans: ['Work Sans', 'sans-serif'],

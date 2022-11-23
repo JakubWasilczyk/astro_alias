@@ -23,7 +23,7 @@ const Section1: React.FC = () => {
             <div className="flex-1 overflow-hidden h-screen relative">
                 <Floater top={"0px"} left={"0px"} width={173} image={geo2} delay={"738ms"} duration={"6.92471s"} />
                 <Floater top={"465px"} left={"-66px"} width={331} image={geo6} delay={"369ms"} duration={"7.70695s"} />
-                <Floater top={"200px"} left={"475px"} width={286} image={geo3} delay={"160ms"} duration={"8.47337s"} />
+                <Floater top={"200px"} left={"475px"} width={286} image={geo3} delay={"160ms"} duration={"8.47337s"} className="z-10" />
                 <Floater top={"860px"} left={"40px"} width={189} image={splash7} delay={"405ms"} duration={"5.93112s"} />
                 <Floater top={"256px"} left={"-65px"} width={179} image={splash9} delay={"99ms"} duration={"6.79034s"} />
                 <Floater top={"184px"} left={"514px"} width={74} image={splash1} delay={"827ms"} duration={"7.19641s"} />
@@ -38,7 +38,7 @@ const Section1: React.FC = () => {
                 <Floater top={"615px"} left={"414px"} width={205} image={geo4} delay={"217ms"} duration={"6.54066s"} />
                 <Floater top={"802px"} left={"309px"} width={205} image={splash8} delay={"930ms"} duration={"8.17654s"} />
             </div>
-            <div className="flex-1 bg-white flex justify-center flex-col px-8">
+            <div className="flex-1 bg-pale flex justify-center flex-col px-8">
                 <SectionTitle />
             </div>
         </SectionBase>
@@ -50,8 +50,8 @@ export default Section1;
 const SectionTitle: React.FC = () => {
     return (
         <>
-            <h2 className='text-secondary font-bold text-[100px] font-berlingske leading-none mb-6'>Cresciamo</h2>
-            <h3 className='text-primary font-bold text-[100px] font-berlingske leading-none mb-6'>insieme</h3>
+            <h2 className='text-secondary font-bold text-[100px] font-berlingske leading-none mb-6 animate-zoomin animation-delay-900'>Cresciamo</h2>
+            <h3 className='text-primary font-bold text-[100px] font-berlingske leading-none mb-6 animate-zoomin animation-delay-1000'>insieme</h3>
             <div className='font-worksans text-darkblue text-[20px] leading-[26px] mb-6'>
                 <p className='mb-4'>Soluzioni digitali di successo</p>
             </div>
