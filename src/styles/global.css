@@ -5,6 +5,37 @@
 
 @font-face {
     font-family: 'Berlingske';
+    font-display: swap;
     src: url('/fonts/BerlingskeSerif-ExtraBold.woff2') format('woff2'),
          url('/fonts/BerlingskeSerif-ExtraBold.woff') format('woff');
+}
+
+p {
+    @apply text-darkblue font-worksans text-[20px] leading-[26px];
+}
+
+p {
+    @apply text-darkblue font-worksans text-[20px] leading-[26px];
+}
+
+h2 {
+    @apply text-primary font-bold text-[100px] font-berlingske leading-none;
+}
+
+h3 {
+    @apply font-bold text-[94px] font-berlingske leading-none;
+}
+
+h5 {
+    @apply font-medium text-[20px] font-worksans leading-tight;
+}
+
+@layer components {
+    .btn-secondary {
+        @apply  rounded-full py-3 px-6
+                bg-secondary cursor-pointer leading-none 
+                inline-flex justify-center 
+                transition-all duration-500
+                font-worksans text-white font-normal text-[15px] tracking-wider;
+    }
 }

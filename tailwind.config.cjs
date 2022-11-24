@@ -55,11 +55,22 @@ module.exports = {
 					"50%": {
 						opacity: "1",
 					}
-				}
+				},
+				bounceright: {
+					"0%, 100%": {
+					  transform: "translateX(-25%)",
+					  "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+					},
+					"50%": {
+					  transform: "translateX(0)",
+					  "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
+					},
+				},
 			},
 			animation: {
 				float: 'float linear 10s infinite',
 				zoomin: 'zoomin 750ms both',
+				bounceright: 'bounceright 1s infinite',
 			}
 		},
 		colors: {
@@ -118,6 +129,7 @@ module.exports = {
 			white: colors.white,
 			black: colors.black,
 			darkblue: "#414764",
+			dark: "#2e3450",
 			pale: "#fafafa",
 		},
 		fontFamily: {
