@@ -1,8 +1,18 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Page from './Page';
+import Layout from "../layouts/Layout.astro";
+import AppMenu from "../components/AppMenu.js";
+import Section1 from "../components/Section1.js";
+import Section2 from "../components/Section2.js";
+import Section3 from "../components/Section3.js";
+import Section4 from "../components/Section4.js";
 ---
 
 <Layout title="Alias2k | Soluzioni digitali di successo">
-	<Page />
+  <main class="grid grid-flow-col overflow-auto snap-x snap-mandatory">
+    <AppMenu />
+    <Section1 />
+    <Section2 />
+    <Section3 />
+    <Section4 />
+  </main>
 </Layout>
