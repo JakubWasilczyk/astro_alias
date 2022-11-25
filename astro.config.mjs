@@ -11,7 +11,8 @@ import robotsTxt from 'astro-robots-txt';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://alias2k.com/',
+  site: 'https://jakubwasilczyk.github.io',
+  base: '/astro_alias',
   integrations: [
     tailwind({
       config: { applyBaseStyles: false },
