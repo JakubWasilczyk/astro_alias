@@ -1,4 +1,4 @@
-import Floater from "./Floater";
+import FloaterAbsolute from "./FloaterAbsolute";
 import SectionBase from "./SectionBase";
 import geo1 from "/floaters/geo1.png";
 import geo2 from "/floaters/geo2.png";
@@ -20,7 +20,7 @@ const Section1: React.FC = () => {
   return (
     <SectionBase id="1">
       <div className="flex-1 overflow-hidden h-screen relative">
-        <Floater
+        <FloaterAbsolute
           top={"0px"}
           left={"0px"}
           width={173}
@@ -28,7 +28,7 @@ const Section1: React.FC = () => {
           delay={"738ms"}
           duration={"6.92471s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"465px"}
           left={"-66px"}
           width={331}
@@ -36,7 +36,7 @@ const Section1: React.FC = () => {
           delay={"369ms"}
           duration={"7.70695s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"200px"}
           left={"475px"}
           width={286}
@@ -45,7 +45,7 @@ const Section1: React.FC = () => {
           duration={"8.47337s"}
           className="z-10"
         />
-        <Floater
+        <FloaterAbsolute
           top={"860px"}
           left={"40px"}
           width={189}
@@ -53,7 +53,7 @@ const Section1: React.FC = () => {
           delay={"405ms"}
           duration={"5.93112s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"256px"}
           left={"-65px"}
           width={179}
@@ -61,7 +61,7 @@ const Section1: React.FC = () => {
           delay={"99ms"}
           duration={"6.79034s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"184px"}
           left={"514px"}
           width={74}
@@ -69,7 +69,7 @@ const Section1: React.FC = () => {
           delay={"827ms"}
           duration={"7.19641s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"513px"}
           left={"302px"}
           width={115}
@@ -77,7 +77,7 @@ const Section1: React.FC = () => {
           delay={"560ms"}
           duration={"8.16401s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"328px"}
           left={"393px"}
           width={117}
@@ -85,7 +85,7 @@ const Section1: React.FC = () => {
           delay={"77ms"}
           duration={"7.14806s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"-108px"}
           left={"200px"}
           width={153}
@@ -93,7 +93,7 @@ const Section1: React.FC = () => {
           delay={"476ms"}
           duration={"8.16461s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"177px"}
           left={"230px"}
           width={91}
@@ -101,7 +101,7 @@ const Section1: React.FC = () => {
           delay={"605ms"}
           duration={"7.51597s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"254px"}
           left={"110px"}
           width={205}
@@ -109,7 +109,7 @@ const Section1: React.FC = () => {
           delay={"200ms"}
           duration={"6.91925s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"777px"}
           left={"668px"}
           width={205}
@@ -117,7 +117,7 @@ const Section1: React.FC = () => {
           delay={"280ms"}
           duration={"5.76777s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"444px"}
           left={"616px"}
           width={205}
@@ -125,7 +125,7 @@ const Section1: React.FC = () => {
           delay={"312ms"}
           duration={"6.19494s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"-58px"}
           left={"584px"}
           width={205}
@@ -133,7 +133,7 @@ const Section1: React.FC = () => {
           delay={"731ms"}
           duration={"5.56368s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"615px"}
           left={"414px"}
           width={205}
@@ -141,7 +141,7 @@ const Section1: React.FC = () => {
           delay={"217ms"}
           duration={"6.54066s"}
         />
-        <Floater
+        <FloaterAbsolute
           top={"802px"}
           left={"309px"}
           width={205}

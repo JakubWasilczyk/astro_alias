@@ -1,4 +1,4 @@
-import Floater from "./Floater";
+import FloaterAbsolute from "./FloaterAbsolute";
 import SectionBase from "./SectionBase";
 import geo3 from "/floaters/geo3.png";
 import geo6 from "/floaters/geo6.png";
@@ -8,7 +8,7 @@ import splash5 from "/floaters/splash5.png";
 const Section3: React.FC = () => {
   return (
     <SectionBase id="3">
-      <Floater
+      <FloaterAbsolute
         bottom={"0"}
         left={"-332px"}
         width={331}
@@ -18,7 +18,7 @@ const Section3: React.FC = () => {
         className="z-50"
       />
       <div className="container relative mx-auto h-full pt-8">
-        <Floater
+        <FloaterAbsolute
           top={"-99px"}
           right={"-54.1px"}
           width={311}
@@ -27,7 +27,7 @@ const Section3: React.FC = () => {
           duration={"8.30448s"}
           className="-z-10"
         />
-        <Floater
+        <FloaterAbsolute
           top={"350px"}
           right={"3.1px"}
           width={74}
@@ -36,7 +36,7 @@ const Section3: React.FC = () => {
           duration={"5.85798s"}
           className="-z-10"
         />
-        <Floater
+        <FloaterAbsolute
           top={"538px"}
           right={"763px"}
           width={145}

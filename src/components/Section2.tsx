@@ -1,4 +1,4 @@
-import Floater from "./Floater";
+import FloaterAbsolute from "./FloaterAbsolute";
 import SectionBase from "./SectionBase";
 import geo6 from "/floaters/geo6.png";
 
@@ -31,7 +31,7 @@ const Section2: React.FC = () => {
           </div>
         </div>
       </div>
-      <Floater
+      <FloaterAbsolute
         bottom={"0"}
         right={"0"}
         width={331}

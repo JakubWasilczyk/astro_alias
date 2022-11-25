@@ -3,9 +3,16 @@ import instagram from "/instagram.svg";
 import facebook from "/facebook.svg";
 import linkedIn from "/linkedin.svg";
 
-const AppMenu: React.FC = () => {
+export interface AppMenuProps {
+  className?: string;
+}
+
+const AppMenu: React.FC<AppMenuProps> = (preps) => {
+  const className = preps.className ?? "";
   return (
-    <div className="group z-50 flex flex-col cursor-default fixed transition-all duration-500 bg-gradient-to-b from-[#d349de] to-[#f90] top-[35px] left-[35px] rounded-full w-[74px] min-h-[230px] hover:min-h-[90vh] justify-between">
+    <div
+      className={`${className} group z-50 flex flex-col cursor-default fixed transition-all duration-500 bg-gradient-to-b from-[#d349de] to-[#f90] top-[35px] left-[35px] rounded-full w-[74px] min-h-[230px] hover:min-h-[90vh] justify-between`}
+    >
       <div className="flex flex-col h-[230px] pb-[3.7rem] pt-[2.4rem] justify-between">
         <img
           src={logoDark}
