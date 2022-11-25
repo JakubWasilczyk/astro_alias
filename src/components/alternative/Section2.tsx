@@ -1,4 +1,5 @@
 import Floater from "../Floater";
+import Vimeo from "@u-wave/react-vimeo";
 import { ParallaxLayer } from "@react-spring/parallax";
 import SectionBase from "../SectionBase";
 import geo6 from "/floaters/geo6.png";
@@ -8,14 +9,16 @@ const Section2: React.FC = () => {
     <>
       <ParallaxLayer offset={1} className="-z-10 relative overflow-clip">
         <div className="aspect-h-9 aspect-w-16">
-          <iframe
-            src="https://player.vimeo.com/video/771149654?h=2af8544caf&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;transparent=0&amp;background=1&amp;app_id=122963"
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowFullScreen={true}
-            title="ALIAS2K_LANDING_MAIN_V4_NOSUB.mp4"
-            data-ready="true"
-          ></iframe>
+          <Vimeo
+            video="771149654"
+            autoplay={true}
+            pip={true}
+            loop={true}
+            controls={false}
+            muted={true}
+            background={true}
+            responsive={true}
+          />
         </div>
         <div className="bg-gradient-to-r  from-black/50 to-black/10 z-10 absolute top-0 bottom-0 left-0 right-0"></div>
       </ParallaxLayer>
