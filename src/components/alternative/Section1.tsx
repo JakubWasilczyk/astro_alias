@@ -22,31 +22,6 @@ const Section1: React.FC = () => {
       <ParallaxLayer className="w-1/2" offset={0} speed={-0.1}>
         <div className="h-screen">
           <Floater
-            top={"0px"}
-            left={"0px"}
-            width={173}
-            image={geo2}
-            delay={"738ms"}
-            duration={"6.92471s"}
-          />
-          <Floater
-            top={"465px"}
-            left={"-66px"}
-            width={331}
-            image={geo6}
-            delay={"369ms"}
-            duration={"7.70695s"}
-          />
-          <Floater
-            top={"200px"}
-            left={"475px"}
-            width={286}
-            image={geo3}
-            delay={"160ms"}
-            duration={"8.47337s"}
-            className="z-10"
-          />
-          <Floater
             top={"860px"}
             left={"40px"}
             width={189}
@@ -103,14 +78,6 @@ const Section1: React.FC = () => {
             duration={"7.51597s"}
           />
           <Floater
-            top={"254px"}
-            left={"110px"}
-            width={205}
-            image={geo5}
-            delay={"200ms"}
-            duration={"6.91925s"}
-          />
-          <Floater
             top={"777px"}
             left={"668px"}
             width={205}
@@ -127,22 +94,6 @@ const Section1: React.FC = () => {
             duration={"6.19494s"}
           />
           <Floater
-            top={"-58px"}
-            left={"584px"}
-            width={205}
-            image={geo1}
-            delay={"731ms"}
-            duration={"5.56368s"}
-          />
-          <Floater
-            top={"615px"}
-            left={"414px"}
-            width={205}
-            image={geo4}
-            delay={"217ms"}
-            duration={"6.54066s"}
-          />
-          <Floater
             top={"802px"}
             left={"309px"}
             width={205}
@@ -151,6 +102,57 @@ const Section1: React.FC = () => {
             duration={"8.17654s"}
           />
         </div>
+      </ParallaxLayer>
+      <ParallaxLayer className="w-1/2" offset={0} speed={-0.2}>
+        <Floater
+          top={"0px"}
+          left={"0px"}
+          width={173}
+          image={geo2}
+          delay={"738ms"}
+          duration={"6.92471s"}
+        />
+        <Floater
+          top={"465px"}
+          left={"-66px"}
+          width={331}
+          image={geo6}
+          delay={"369ms"}
+          duration={"7.70695s"}
+        />
+        <Floater
+          top={"200px"}
+          left={"475px"}
+          width={286}
+          image={geo3}
+          delay={"160ms"}
+          duration={"8.47337s"}
+          className="z-10"
+        />
+        <Floater
+          top={"254px"}
+          left={"110px"}
+          width={205}
+          image={geo5}
+          delay={"200ms"}
+          duration={"6.91925s"}
+        />
+        <Floater
+          top={"-58px"}
+          left={"584px"}
+          width={205}
+          image={geo1}
+          delay={"731ms"}
+          duration={"5.56368s"}
+        />
+        <Floater
+          top={"615px"}
+          left={"414px"}
+          width={205}
+          image={geo4}
+          delay={"217ms"}
+          duration={"6.54066s"}
+        />
       </ParallaxLayer>
       <ParallaxLayer className="w-1/2 flex" offset={0}>
         <div className="w-1/2"></div>

@@ -111,6 +111,7 @@ const Menu: React.FC = () => {
           className="text-primary text-lg hover:text-white transition-colors duration-500"
           href="https://www.instagram.com/alias2kcom/"
           aria-label="instagram"
+          target="_blank"
         >
           <AiOutlineInstagram />
         </a>
@@ -118,6 +119,7 @@ const Menu: React.FC = () => {
           className="text-primary text-lg hover:text-white transition-colors duration-500"
           href="https://facebook.com/alias2kcom"
           aria-label="facebook"
+          target="_blank"
         >
           <ImFacebook />
         </a>
@@ -125,6 +127,7 @@ const Menu: React.FC = () => {
           className="text-primary text-lg hover:text-white transition-colors duration-500"
           href="https://www.linkedin.com/company/alias-srl"
           aria-label="linkedin"
+          target="_blank"
         >
           <FaLinkedinIn />
         </a>
