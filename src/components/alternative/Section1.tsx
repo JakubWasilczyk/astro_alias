@@ -178,10 +178,11 @@ const SectionTitle: React.FC = () => {
         <p className="mb-4">Soluzioni digitali di successo</p>
       </div>
       <div className="flex gap-5 content-end">
-        <a className="leading-none">
-          <span className="font-semibold font-worksans uppercase text-[15px] text-darkblue tracking-widest">
-            Scopri di più
-          </span>
+        <a
+          className="leading-none font-semibold font-worksans uppercase text-[15px] text-darkblue tracking-widest"
+          href="#3"
+        >
+          Scopri di più
         </a>
         <hr className="inline-block flex-1 h-[60%] mt-auto border-dashed border-primary border-t-2" />
       </div>

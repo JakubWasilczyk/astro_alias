@@ -32,7 +32,13 @@ const Section2: React.FC = () => {
                 un unico obiettivo: creare valore per i nostri clienti.
               </p>
               <div>
-                <a className="btn-secondary w-40 hover:w-full">Scopri di più</a>
+                <a
+                  className="btn-secondary w-40 hover:w-full"
+                  href="https://alias2k.com/it/chi-siamo/"
+                  target="_blank"
+                >
+                  Scopri di più
+                </a>
               </div>
             </div>
           </div>

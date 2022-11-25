@@ -38,7 +38,7 @@ const Section3: React.FC = () => {
           className="-z-10"
         />
       </ParallaxLayer>
-      <ParallaxLayer offset={2}>
+      <ParallaxLayer offset={2} id="3">
         <div className="container relative mx-auto h-full pt-8">
           <h2 className="text-primary font-bold text-[100px] font-berlingske leading-none mb-6">
             Servizi
